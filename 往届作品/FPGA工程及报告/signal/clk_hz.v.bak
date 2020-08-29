@@ -1,0 +1,4 @@
+module clk_hz(clk_in,clk_in)
+input clk_in;
+output clk_out;
+parameter TIME=1

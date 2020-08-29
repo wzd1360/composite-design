@@ -1,0 +1,11 @@
+
+State Machine - |signal|ir_module:inst1|state
+Name state.ST_CODE_P state.ST_START_H state.ST_START_L 
+state.ST_START_L 0 0 0 
+state.ST_CODE_P 1 0 1 
+state.ST_START_H 0 1 1 
+
+State Machine - |signal|ir_module:inst1|IR_code
+Name IR_code.CODE_1 
+IR_code.CODE_0 0 
+IR_code.CODE_1 1 

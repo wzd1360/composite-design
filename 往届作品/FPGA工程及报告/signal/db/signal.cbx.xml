@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="signal">
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|count:inst2|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_kgh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|count:inst2|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_mgh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|PLL:inst|altpll0:inst|altpll:altpll_component" CBX_FILE_NAME="altpll0_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|PLL:inst|altpll1:inst1|altpll:altpll_component" CBX_FILE_NAME="altpll1_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|count:inst2|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_mkm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|count:inst2|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ngh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|count:inst2|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_rgh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|count:inst2|lpm_mult:Mult3|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_lgh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|count:inst2|lpm_mult:Mult3|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_pgh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|count:inst2|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_ogh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|count:inst2|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_rgh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|signal|sin_block:inst5|ROM_sin:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_e2b1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

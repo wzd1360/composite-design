@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at ir.v(130): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at count.v(34): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at count.v(138): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at clk_hz.v(7): always construct contains both blocking and non-blocking assignments

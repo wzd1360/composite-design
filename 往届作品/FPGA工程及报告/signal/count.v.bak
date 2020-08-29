@@ -1,0 +1,23 @@
+module  count(clk_in,);
+input clk_in ;
+input rst_n;         //PIN 100  全局低电平复位
+output clk_out ,
+
+parameter TIME=32'd100_000_000;
+
+reg [31:0] cnt;
+
+
+always @ (posedge clk_in or negedge rst_n)
+begin 
+         if(rst_n==1'b0)
+			   cnt<=32'd0;	
+				
+		if ()
+			  begin 
+			 cnt<=32'd0;
+			 cout_hz =~cout_hz;
+			  end
+			 else cnt1<=cnt1+1'b1;
+			 end
+endmodule
