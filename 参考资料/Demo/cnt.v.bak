@@ -1,0 +1,27 @@
+module(clk,out);
+
+	input clk;
+	output out;
+	
+	reg [15:0] cnt;
+	parameter TIME=1000;
+	
+	
+alway@(posedge clk)
+begin
+ if cnt==TIME
+ begin
+	
+ 
+ end
+
+
+
+end 
+
+
+
+
+
+end module
+
