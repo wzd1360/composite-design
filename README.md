@@ -6,6 +6,6 @@
 ## 授课用FPGA相关信息
 - 芯片型号：Cyclone IV EP4CE6E22C8N
 在工程中选择EP4CE6E22C8即可。
-- Flash芯片型号：ESPC4
+- Flash芯片型号：EPCS4
 用于程序固化。
 - 管脚信息：可以根据原理图查看。
